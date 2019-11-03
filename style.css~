@@ -1,0 +1,121 @@
+body
+{
+	background-color : rgb(0, 27, 51);
+	font-family: "Verdana", sans-serif;
+	margin: 0;
+}
+
+#porte
+{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	border : 5px;
+	border-style: ridge;
+}
+
+header
+{
+	text-align: center;
+}
+
+section
+{
+	flex: 8;
+	padding: 20px;
+}
+
+aside
+{
+	flex: 2;
+	padding: 20px;
+}
+
+
+nav
+{
+	display: flex;
+	text-align: center;
+	width: 100%;
+	color: rgb(249,249,249);
+}
+
+ul
+{
+	display:flex;
+	flex: 8;
+}
+
+li
+{
+	width: 20%;
+}
+
+#search_bar
+{
+	width: 20%;
+}
+
+span
+{
+
+}
+
+h1
+{
+	color: rgb(26, 188, 156);
+}
+
+h2
+{
+	color: rgb(46, 134, 193);
+}
+
+h3
+{
+	color: rgb(255, 157, 0);
+}
+
+p
+{
+	color: rgb(249,249,249);
+	text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+table
+{
+	color: rgb(249,249,249);
+	border-collapse : collapse;
+	border-color : rgb(255,255,255);
+}
+
+a:link
+{
+	color: rgb(228, 218, 11);
+}
+
+a:hover
+{
+    color: hotpink;
+}
+
+img:hover
+{
+ webkit-transform: rotateY(150deg); /*Safari */
+    transform: rotateY(150deg);
+    perspective(10);
+	transition-timing-function : ease-in-out;
+	transition-duration : 1.0s;
+}
+
+td, th /* Toutes les cellules des tableaux... */
+
+{
+ 	padding-left : 30px;
+    padding-right : 30px;
+    border-right :1px solid white;
+    border-bottom: 1px solid white;
+    font-size : 150%;
+}
